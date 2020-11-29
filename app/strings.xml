@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Github Search</string>
+    <string name="login">"@"%s</string>
+    <string name="followers_count">%d Followers</string>
+    <string name="following_count">%d Following</string>
+    <string name="repos_count">%d Repos</string>
+
+    <string name="followers_title">Followers</string>
+    <string name="following_title">Following</string>
+
+    <string name="no_followers">No Followers.</string>
+    <string name="no_following">Not Following Anyone.</string>
+
+    <string name="app_logo_desc">Logo of app</string>
+
+    <string name="error_title">Something went wrong…</string>
+    <string name="search_github_user_profile">Search github user profile</string>
+    <string name="enter_user_name">Please enter github user name</string>
+    <string name="bio">This is the demo description of the demo search repository. It supports multiline</string>
+    <string name="followers">116 Followers</string>
+    <string name="following">14 Following</string>
+    <string name="repos">43 Repos</string>
+
+</resources>
