@@ -4,12 +4,12 @@
 
 This app provides screen to search for github user name and display searched user details.
 
-Introduction
+# Introduction
 The app consists of single fragment (SearchFragment) that provides search box to enter github username and display the search results.
 
 Search result displays user details, user followers and the ones user is following.
 
-Functionality
+# Functionality
 Fetch github user details from github api using retrofit
 Fetch github user followers list from github api using retrofit
 Fetch github user following list from github api using retrofit
@@ -19,26 +19,26 @@ Displays error ui in case of any error
 Architecture Used
 Clean and MVVM with LiveData
 
-UI Tests
+# UI Tests
 The projects uses Espresso for UI testing. SearchFragmentTest mocks SearchViewModel to run the tests.
 
-Database Tests
+# Database Tests
 The project creates an in memory database for each database test and uses instrument test to run them on the device.
 
-Local Unit Tests
-ViewModel Tests
+# Local Unit Tests
+## ViewModel Tests
 ViewModel is tested using local unit tests with mock Repository implementations.
 
-Repository Tests
+## Repository Tests
 Repository is tested using local unit tests with mock web service and mock database.
 
-Webservice Tests
+## Webservice Tests
 The project uses MockWebServer project to test REST api interactions.
 
-DB Tests
+## DB Tests
 SearchDaoImpl is tested using local unit tests with mock dao implementations.
 
-Libraries
+## Libraries
 Android Support Library
 Android Architecture Components
 Facebook Shimmer Library for shimmer loading effect
